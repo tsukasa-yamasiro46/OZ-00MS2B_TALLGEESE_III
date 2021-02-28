@@ -1,0 +1,80 @@
+
+.sub{
+    color: rgb(87, 87, 87);
+    font-size: 1.4rem;
+    background-color: rgba(117, 202, 252, 0.432);
+}
+.syageki{
+    font-size: 1.7rem;
+}
+h5{
+    color: tomato;
+}
+.hand{
+    color: rgb(201, 212, 99);
+}
+
+/*付箋っぽくするやつ*/
+.box8 {
+    padding: 0.5em 1em;
+    color: #181818;
+    background: #cfe0ff;
+    border-left: solid 10px #232fcf;
+}
+.box8 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/* container */
+#gisu3{
+    width: 725px;
+    height: auto;
+}
+@media only screen and (max-width: 767px){
+    #gisu3{
+        width: 100%;
+        height: auto;
+    
+    }
+}
+.media video{
+    width: 500px;
+    height: auto;
+    padding: 100px 0px 0px 0px;
+}
+
+@media only screen and (max-width: 767px){
+    .media video{
+    max-width: 340px;
+    padding: 310px 0px 0px 0px;
+    }
+}
+
+.media-body{
+    padding: 50px 0px 90px 0px;
+}
+@media only screen and (max-width: 767px){
+    #media-body{
+        display: block;
+    }
+}
+
+.Setumei{
+    padding: 50px 0px 90px 0px;
+}
+.content-item{
+    padding: 210px 0px 90px 0px;
+    display: flex;
+}
+@media only screen and (max-width: 767px){
+    .content-item{
+        padding: 210px 0px 90px 0px;
+        display: block;
+    }
+}
+
+/*ヘッダー設定*/
+.navbar{
+    background-color: #a4c2f0;
+}
